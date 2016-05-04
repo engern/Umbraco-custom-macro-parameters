@@ -10,8 +10,6 @@
     }
 ],
 javascript: [
-    "~/app_plugins/MacroRichText/Editor.controller.js",
-	"~/App_Plugins/EmailSubscription/emailsubscription.resource.js",
-	"~/App_Plugins/EmailSubscription/backoffice/emailsubscriptiontree/edit.controller.js"
+    "~/app_plugins/MacroRichText/Editor.controller.js"
 ]
 }
