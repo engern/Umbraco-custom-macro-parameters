@@ -1,0 +1,18 @@
+{   
+    propertyEditors: [      
+        {
+            alias: "MacroMultiContentPicker",
+            name: "Content picker multi",
+			isParameterEditor: true,
+			hideLabel: true,
+            editor: {
+                view: "~/App_Plugins/MacroMultiContentPicker/Editor.html",
+				valueType: "JSON"
+            }
+        }
+    ]
+    ,
+    javascript: [
+        '~/App_Plugins/MacroMultiContentPicker/Editor.controller.js'
+    ]
+}
