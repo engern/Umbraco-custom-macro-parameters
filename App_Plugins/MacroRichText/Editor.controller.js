@@ -7,7 +7,7 @@
         value: $scope.model.value,
         config: {
             editor: {
-                toolbar: ["code", "styleselect", "bold", "italic", "underline", "link", "p360link"],
+                toolbar: ["code", "styleselect", "bold", "italic", "underline", "link"],
                 stylesheets: ["Editor"],
                 dimensions: { height: 400 }
             }
