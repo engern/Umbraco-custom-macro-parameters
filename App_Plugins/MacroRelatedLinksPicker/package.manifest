@@ -1,0 +1,18 @@
+{   
+    propertyEditors: [      
+        {
+            alias: "MacroRelatedLinksPicker",
+            name: "Related links picker",
+			isParameterEditor: true,
+			hideLabel: true,
+            editor: {
+                view: "~/App_Plugins/MacroRelatedLinksPicker/Editor.html",
+				valueType: "JSON"
+            }
+        }
+    ]
+    ,
+    javascript: [
+        '~/App_Plugins/MacroRelatedLinksPicker/Editor.controller.js'
+    ]
+}
